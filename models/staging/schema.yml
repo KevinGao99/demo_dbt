@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: wired-effort-425919-n8
+    schema: ny_taxi
+
+    tables:
+      - name: yellow_cab_data
+      - name: green_cab_data
